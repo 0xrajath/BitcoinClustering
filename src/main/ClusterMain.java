@@ -324,8 +324,8 @@ public class ClusterMain {
 	}
 	
 	
-	//Answers for Question 3A
-	private static void question3A() {
+	//Method to find richest entity in first 100,001 bitcoin blocks
+	private static void richestEntity() {
 		long greatestValue=0;
 		int greatestValueHoldingEntity=0;
 		
@@ -362,12 +362,6 @@ public class ClusterMain {
 	}
 	
 	
-	//Answers for Question 3B
-	private static void question3B(){
-		
-		
-	}
-	
 	
 	public static void main(String[] args) {
 		
@@ -375,11 +369,9 @@ public class ClusterMain {
 		
 		initializePOJOs();
 		
-		//Answers for Question 3A
-		question3A();
+		//Finding Richest Entity
+		richestEntity();
 		
-		//Answers for Question 3B
-		question3B();
 					
 	}
 
